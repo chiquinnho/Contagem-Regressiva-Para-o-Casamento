@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box; /*Faz com que o padding e a border sejam incluídos na largura e altura total dos elementos. Isso facilita o cálculo de tamanhos e evita que elementos cresçam além do esperado quando padding ou border são adicionados.*/
+}
+
+body {
+    display: flex; /*Define o body como um contêiner flexível, permitindo o uso das propriedades do Flexbox.    */
+    flex-direction: column; /* Alinha os elementos filhos (como o <h1> e o contêiner de contagem regressiva) em uma coluna, ou seja, verticalmente.*/
+    align-items: center; /*Centraliza horizontalmente os elementos filhos dentro do contêiner flexível.    */
+    min-height: 100vh; /*Define a altura mínima do body como 100% da altura da viewport (tela do navegador), garantindo que o conteúdo ocupe pelo menos toda a altura da tela.*/
+    font-family: "Poppins";
+    margin: 0%; /**/
+}
+
+h1 {
+    font-weight: normal; /**/
+    font-size: 4rem; /**/
+    margin-top: 4.5rem; /**/
+}
+
+.countdown-container{
+    display: flex; /**/
+    flex-wrap: wrap; /**/
+    justify-content: center; /**/
+}
+
+.text {
+    font-weight: bold; /**/
+    font-size: 6rem; /**/
+    line-height: 1; /**/
+    margin: 1rem 2rem; /**/
+}
+
+.countdown-el {
+    text-align: center; /**/
+}
+
+.countdown-el span {
+    font-size: 1.5rem; /**/
+}
